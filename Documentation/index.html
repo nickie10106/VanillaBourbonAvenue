@@ -1,0 +1,747 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Elrumi HTML5 Theme Documentation</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="Daniel/codetheme.net">
+    <meta name="copyright" content="Daniel/codetheme.net">
+
+    <link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+    <link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.scrollTo.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+
+    <script>
+        document.createElement('section');
+        var duration = '500',
+            easing = 'swing';
+    </script>
+    <script src="assets/js/script.js"></script>
+
+    <style>
+        html {
+            background-color: #222222;
+            color: #666666;
+        }
+        ::-moz-selection {
+            background: #204E5E;
+            color: #ccc;
+        }
+        ::selection {
+            background: #204E5E;
+            color: #ccc;
+        }
+        #documenter_sidebar #documenter_logo {
+            background-image: url();
+        }
+        a {
+            color: #BBBBBB;
+        }
+        .btn {
+            color: #666;
+            border-color: #666;
+        }
+        .btn-primary:hover,
+        .btn-primary:active,
+        .btn-primary.active,
+        .btn-primary.disabled,
+        .btn-primary[disabled] {} hr {
+            border-top: 1px solid #111111;
+            border-bottom: 1px solid #333333;
+        }
+        #documenter_sidebar,
+        #documenter_sidebar ul a {
+            background-color: #343838;
+            color: #222222;
+        }
+        #documenter_sidebar ul a {
+            -webkit-text-shadow: 1px 1px 0px #222222;
+            -moz-text-shadow: 1px 1px 0px #222222;
+            text-shadow: 1px 1px 0px #222222;
+        }
+        #documenter_sidebar ul {
+            border-top: 1px solid #212424;
+        }
+        #documenter_sidebar ul a {
+            border-top: 1px solid #494F4F;
+            border-bottom: 1px solid #212424;
+            color: #BBBBBB;
+        }
+        #documenter_sidebar ul a:hover {
+            background: #333636;
+            color: #EAB000;
+            border-top: 1px solid #333636;
+        }
+        #documenter_sidebar ul a.current {
+            background: #333636;
+            color: #EAB000;
+            border-top: 1px solid #333636;
+        }
+        #documenter_copyright {
+            display: block !important;
+            visibility: visible !important;
+            color: #666;
+        }
+        #documenter_copyright a {
+            color: #666;
+        }
+        #documenter_content h4 {
+            margin: 48px 0 18px;
+        }
+        #documenter_content h5,
+        #documenter_content h6 {
+            margin: 28px 0 18px 20px;
+        }
+        .prettyprint.linenums {
+            margin-left: 20px;
+        }
+        img.main {
+            margin-left: 20px;
+        }
+        #documenter_content p {
+            margin: 20px 0 20px 20px;
+        }
+        ol.linenums li {
+            text-shadow: 0 1px 0 #111;
+        }
+        .prettyprint.linenums {
+            -webkit-box-shadow: inset 30px 0 0 #444, inset 31px 0 0 #444;
+            -moz-box-shadow: inset 30px 0 0 #444, inset 31px 0 0 #444;
+            box-shadow: inset 30px 0 0 #444, inset 31px 0 0 #444;
+        }
+        .prettyprint {
+            background-color: #222;
+            border: 1px solid #444;
+        }
+        .pln {
+            color: #999;
+        }
+        .kwd,
+        .linenums .tag {
+            color: #2B48A7;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="documenter_sidebar">
+        <a href="#documenter_cover" id="documenter_logo"></a>
+        <ul id="documenter_nav">
+            <li><a class="current" href="#documenter_cover">Start</a>
+            </li>
+            <li><a href="#unzip">Extract the zip file</a>
+            </li>
+            <li><a href="#html_structure" title="HTML Structure">HTML Structure</a>
+            </li>
+            <li><a href="#modules" title="Modules">Modules</a>
+            </li>
+            <li><a href="#css_files_and_structure" title="CSS Files and Structure">CSS</a>
+            </li>
+            <li><a href="#javascript" title="JavaScript">JavaScript</a>
+            </li>
+            <li><a href="#help_support" title="Help & Support">Help & Support</a>
+            </li>
+
+        </ul>
+        <div id="documenter_copyright">Copyright <a href="http://themeforest.net/user/muse-master" target="_blank">Muse Master</a> 2015
+            <br> made with the <a href="http://rxa.li/documenter" target="_blank">Documenter v2.0</a>
+        </div>
+    </div>
+    <div id="documenter_content">
+        <section id="documenter_cover">
+            <h1>Elrumi HTML5 Theme Documentation</h1>
+
+            <hr>
+            <ul>
+                <li>Created: 2/15/2016</li>
+                <li>latest Update: 02/15/2016</li>
+                <li>By: <a href="http://themeforest.net/user/crown_technologies">Muse Master</a>
+                </li>
+            
+            </ul>
+            <p style="margin-left:0">Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/muse-master">here</a>. Thanks so much!</p>
+        </section>
+
+        <section id="unzip">
+            <h3>Extract the zip file</h3>
+            <hr class="notop">
+            <p> After extract the main zip file, you'll see these folders and files: </p>
+
+            <ul>
+                <li><strong>html</strong> - Main theme folder
+                    <ul>
+                        <li>Elrumi html5 theme</li>
+                    </ul>
+                </li>
+                <li><strong>Documentation</strong> - help file</li>
+            </ul>
+
+            <p>HOLD ON !!! Do not rush yourself ... if you are a web developer then you won't get any kind of trouble. We are just providing the documentation for the important section/ third party plugins to install .</p>
+            <p>NOTE: All examples are is just for demo purpose . your original files code id's , classes names may b different</p>
+        </section>
+
+        <section id="html_structure">
+            <div class="page-header">
+                <h3>HTML Structure</h3>
+                <hr class="notop">
+            </div>
+
+            <h4>Introduction</h4>
+            <p>As a web developer i'm using my desired code style , every developer has a different presentation of coding you can modify it . at this moment i'm using bootstrap coding style as shown below
+                <br> All style.css links are put in head tag, put all js files(In addition to jquery.js) before &lt;/body&gt;tag.</p>
+
+            <pre class="prettyprint lang-css linenums">
+            &lt;!-- Main Container --&gt;
+            &lt;div class="container"&gt;
+                &lt;div class="row"&gt;
+                    &lt;!-- Main Content goes here --&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Example Shown Below --&gt;
+        </pre>
+            <div class="margim">
+                <img src="assets/exampleHierachy.jpg">
+                <br/>
+                <br/>
+                <img src="assets/exampleHierachy2.jpg">
+            </div>
+
+        </section>
+
+
+        <section id="modules">
+            <h3>Modules</h3>
+            <hr class="notop">
+            <br>
+            <br> The Modules(elements) inluded:
+
+            <ul>
+                <li>Navigation</li>
+                <li>Carousel</li>
+                <li>Animate Numbers/ Count Down </li>
+                <li>Google maps</li>
+                <li>Contact form</li>
+                <li>ImageBox Animations</li>
+                <li>Font Awesome</li>
+                <li>Animations</li>
+            </ul>
+
+            <br>
+            <br>
+
+            <p>Note:
+                <br>
+                <br> Be sure all the Modules works, please make sure the things:</p>
+            <ul>
+                <li>link the following css in the header tag
+                    <pre class="prettyprint lang-css linenums">
+            &lt; -- bootstrap Framework -- See Documentation (http://getbootstrap.com/) --  &gt;
+            &lt;link rel="stylesheet" href="css/bootstrap.css" type="text/css"&gt;
+            &lt; -- Custom StyleSheet -- &gt;
+            &lt;link rel="stylesheet" href="css/style.css" type="text/css"&gt;
+            &lt; -- Animate CSS For Animations -- See Documentation (https://daneden.github.io/animate.css/) --  &gt;
+            &lt;link rel="stylesheet" href="css/animate.css" type="text/css"&gt;
+            &lt; -- Font Awesome Framework -- See Documentation (https://fortawesome.github.io/Font-Awesome/) --  &gt;
+            &lt;link rel="stylesheet" href="css/font-awesome.css" type="text/css"&gt;
+        </pre>
+                </li>
+                <li>link the all JS files
+                    <pre class="prettyprint lang-css linenums">
+        &lt; -- Jquery Framework -- See Documentation (https://api.jquery.com/)--  &gt;
+        &lt;script type="text/javascript" src="js/jquery.js"&gt;&lt;/script&gt;
+
+        &lt; -- bootstrap Framework -- See Documentation (http://getbootstrap.com/) --  &gt;
+        &lt;script type="text/javascript" src="js/bootstrap.js"&gt;&lt;/script&gt;
+
+        &lt; -- Mix It Up Plugin -- See Documentation (https://mixitup.kunkalabs.com/) --  &gt;
+        &lt;script type="text/javascript" src="js/jquery.mixitup.js"&gt;&lt;/script&gt;
+
+        &lt; -- Text Rotator Plugin -- See Documentation (http://morphext.fyianlai.com/) --  &gt;
+        &lt;script type="text/javascript" src="js/morphext.js"&gt;&lt;/script&gt;
+
+        &lt; -- BackStretch Carousel Plugin -- See Documentation (http://srobbin.com/jquery-plugins/backstretch/) --  &gt;
+        &lt;script type="text/javascript" src="js/backstretch.min.js"&gt;&lt;/script&gt;
+
+        &lt; -- Google Maps -- See Documentation (https://cdnjs.com/) --  &gt;
+        &lt;script type="text/javascript" src="http://maps.google.com/maps/api/js"&gt;&lt;/script&gt;
+
+        &lt; -- Wow Animations Plugin -- See Documentation (http://mynameismatthieu.com/WOW/) --  &gt;
+        &lt;script type="text/javascript" src="js/wow.min.js"&gt;&lt;/script&gt;
+
+        &lt; -- Custom Javascript -- See Documentation (custom jquery/javascript styles for the theme) --  &gt;
+        &lt;script type="text/javascript" src="js/custom.js"&gt;&lt;/script&gt;
+        
+    </pre>
+                </li>
+                <li>insert the script before <span class="pre">&lt;/body&gt;</span>
+                </li>
+            </ul>
+
+            <h4>Navigation</h4>
+            <ul>
+                <li> Navigation is following the default hiearachy of bootstrap you can see documentation <a href="http://getbootstrap.com/components/#navbar">(Bootstrap navbar)</a> for further details
+                    <br/>
+                    <br/>
+                </li>
+                <br/>
+                <br/>
+                <div class="margimMap">
+
+                    <img src="assets/images/navigationExample.jpg">
+
+                </div>
+
+                <br/>
+                <br/>
+                <li>Navbar Brand , You Can Replace it With Image Or With Text WhatEver You Like
+                    <pre class="prettyprint lang-css linenums">
+        &lt;a class="navbar-brand scroll" href="#home"&gt; CA &lt;/a&gt;
+     </pre>
+                </li>
+                <br/>
+                <br/>
+                <li>Navbar List Item
+                    <pre class="prettyprint lang-css linenums">
+        &lt;li&gt;
+            &lt;a&gt; class="scroll" href="#home"HOME &lt;/a&gt; 
+        &lt;/li&gt;
+     </pre>
+                </li>
+                <br/>
+                <br/>
+                <li>Navbar Click Scroll Effect
+                    <pre class="prettyprint lang-css linenums">
+        
+        <img src="assets/images/navigation.jpg">
+     </pre>
+
+                    <br/>
+                    <br/>
+                    <li>Style Navigation , if You want to change style you can edit it from style.css
+                        <pre class="prettyprint lang-css linenums">
+      
+        <img src="assets/images/navigationcss.jpg">
+     </pre>
+
+            </ul>
+
+
+
+            <h4>Carousel</h4>
+            <ul>
+                <li> We are using Backstretch Carousel and Text Rotator in the header section -- See Documentation <a href="http://srobbin.com/jquery-plugins/backstretch/">(Backstrectch Plugin) </a> <a href="http://morphext.fyianlai.com/">(Text Rotator Plugin) </a>for further details
+                    <br/>
+                    <br/>
+                </li>
+                <div class="margimMap">
+                    <img src="assets/images/flipper.jpg">
+                </div>
+
+
+                <br/>
+                <br/>
+                <li><a href="http://srobbin.com/jquery-plugins/backstretch/">Backstretch Image Carousel plugin</a>
+                    <pre class="prettyprint lang-css linenums">
+        &lt; -- HTML -- &gt;
+        <img src="assets/images/backstrectchHTML.jpg">
+        &lt; -- JS you can find it in custom.js file-- &gt;
+        <img src="assets/images/backstrectchExample.jpg">
+     </pre>
+                </li>
+                <br/>
+                <br/>
+                <li><a href="http://morphext.fyianlai.com/">Text Rotator plugin</a>
+                    <pre class="prettyprint lang-css linenums">
+        &lt; -- HTML -- &gt;
+        <img src="assets/images/textRotator.jpg">
+        &lt; -- JS you can find it in custom.js file-- &gt;
+        <img src="assets/images/textRotatorJS.jpg">
+     </pre>
+                </li>
+                <li>You can change words according to your will with " , " Seprator
+                    <pre class="prettyprint lang-css linenums">
+        &lt; -- HTML -- &gt;
+        <img src="assets/images/changer.jpg">
+     </pre>
+                </li>
+
+            </ul>
+
+            <h4>Animate Number / CountDown</h4>
+            <ul>
+                <li> We Used Custom JS For Animating, this is just a example images the original files may b has a different names variations so please check it . 
+                    <br/>
+                    <br/>
+                    <li> Set the number to 0 in your html files and animate with javascript/jquery example show below
+                        <br/>
+                        <br/>
+                        <div>
+                            <pre class="prettyprint lang-css linenums">
+
+
+            <img src="assets/images/funfacts.jpg">
+
+        </pre>
+
+                        </div>
+                        <br/></br>
+                        <li> Set the number in your JS files when it crosses the certain section it will animate the number example show below
+                            <br/>
+                            <br/>
+
+                            <pre class="prettyprint lang-css linenums">
+
+            <img src="assets/images/jsAnimateNumbers1.jpg">
+
+        </pre>
+                            <br/>
+                            <Br/>
+                            <li> animate numbers
+                                <br/>
+                                <br/>
+                                <pre class="prettyprint lang-css linenums">
+
+            <img src="assets/images/jsAnimateNumbers.jpg">
+
+        </pre>
+                            </li>
+
+
+
+            </ul>
+            <h4>Google Maps</h4>
+            <ul>
+                <li> We used <a href="https://snazzymaps.com/"> Snazzy Maps </a> For the Styling -- see documentation( <a href="https://snazzymaps.com/"> Snazzy Maps </a>)
+                    <br/>
+                    <br/>
+                </li>
+                <li>You can see the link in the footer
+
+
+                    <pre class="prettyprint lang-css linenums">
+
+            &lt; -- HTML you can find it on line no 818 , index.html -- &gt;
+
+            <img src="assets/images/map.jpg">
+
+        </pre>
+
+                </li>
+                <br/></br>
+
+                <li> you can find JS code In Custom JS
+                    <br/>
+                    <br/>
+
+                    <pre class="prettyprint lang-css linenums">
+
+        &lt; -- JS you can find it on line no 148 , custom.JS -- &gt;
+
+        <img src="assets/images/mapExample.jpg">
+
+    </pre>
+                </li>
+                <br/>
+                <Br/>
+                <li> you can change the style of the map from (<a href="https://snazzymaps.com/style/151/ultra-light-with-labels">snazzy maps</a>)
+                    <br/>
+                    <br/>
+                </li>
+                <br/>
+                <Br/>
+                <div class="margimMap">
+                    <img src="assets/images/mapStyle.jpg">
+                </div>
+                <br/>
+                <li> If you want to understand in Details Please read the <a href="https://snazzymaps.com/about">>documentation</a>
+                    <br/>
+                    <br/>
+                </li>
+
+
+
+            </ul>
+
+            <h4>Contact Form</h4>
+            <ul>
+                <li> We Create Form Using Bootstrap -- See Documentation (<a href="http://getbootstrap.com/css/#forms">bootstrap forms</a>)
+                    <br/>
+                    <br/>
+                </li>
+                <li> Forms for PHP/ASP.NET/JAVA etc.
+
+
+                    <pre class="prettyprint lang-css linenums">
+
+            &lt; -- you can use form field for the id's  -- &gt;
+
+            <img src="assets/images/contact.jpg">
+
+        </pre>
+
+                </li>
+
+                <li>
+                    a great example is given below for the contact form , you can customize it according to different programming languages principles -- For Futher Information <a href="http://themeforest.net/user/crown_technologies">Contact us</a>
+                    <pre class="prettyprint lang-css linenums">
+
+
+            <img src="assets/images/formPhp.jpg">
+
+        </pre>
+                </li>
+
+
+
+            </ul>
+
+            <h4>Image Box Animations</h4>
+            <ul>
+                <li> We Create Portfolio Section Image Animations with MixItUp -- See Documentation (<a href="https://mixitup.kunkalabs.com/">MixItUp</a>)
+                    <br/>
+                    <br/>
+                </li>
+                <li> when you click on one of the navigation link it would shuffle the images
+                    <br/>
+                    <br/>
+                    
+                </li>
+                <br/>
+                <br/>
+                <li> you can customize from the Js File , the #container is the parent of the portfolio images . if get stuck See Documentation (<a href="https://mixitup.kunkalabs.com/">MixItUp</a>)</li>
+
+                <pre class="prettyprint lang-css linenums">
+
+                
+
+                <img src="assets/images/jsPortfolio.jpg">
+
+            </pre>
+
+                </li>
+                <li> set/name the data-filter according to your will </li>
+
+                <pre class="prettyprint lang-css linenums">
+
+                
+
+                <img src="assets/images/portfolioExampleNav.jpg">
+
+            </pre>
+
+                </li>
+                <li> call the attribute on the parent container of the image</li>
+
+                <pre class="prettyprint lang-css linenums">
+
+                <img src="assets/images/examplePorfolio.jpg">
+
+            </pre>
+
+                </li>
+
+
+
+
+            </ul>
+
+            <h4>Font Awesome</h4>
+            <ul>
+                <li> we used font awesome icons in different sections of the theme . one of the examples shown below</li>
+                <br/>
+                <br/>
+
+
+
+
+                </li>
+                <div class="margimMap">
+                    <img src="assets/images/fontawesome.jpg">
+                </div>
+                <br/>
+                <br/>
+
+                <li>you can change "i" to change icon for further information please visit <a href="https://fortawesome.github.io/Font-Awesome/get-started/">font awesome documentation</a> and for different icons please visit <a href="https://fortawesome.github.io/Font-Awesome/icons/">Icons</a>
+                    <br/>
+                    <br/>
+                    <pre class="prettyprint lang-css linenums">
+
+                &lt; -- you can find the code at index.html -- &gt;
+
+                <img src="assets/images/icons.jpg">
+
+            </pre>
+                </li>
+                <li>
+                    you can change the size of a icon
+
+                    <pre class="prettyprint lang-css linenums">
+
+                    &lt; -- you can find the code at index.html -- &gt;
+
+                <img src="assets/images/iconsExamples.jpg">
+
+            </pre>
+                </li>
+
+
+
+
+
+                <h4>Animations</h4>
+                <ul>
+                    <li> We Used different Animations from section to section . you can see the detailed documentation at <a href="http://mynameismatthieu.com/WOW/docs.html"> wowJS Plugin </a> for different effects <a href="http://mynameismatthieu.com/WOW/index.html">WowJS Effects</a>
+                    </li>
+
+                    <br/>
+                    <Br/>
+
+                    <li> an example shown below . Make sure you link the JS and CSS Animate Files . Call the "wow" class in the container which you want to animate
+
+                        <pre class="prettyprint lang-css linenums">
+
+                    &lt; -- you can find the code at index.html -- &gt;
+
+                <img src="assets/images/wow.jpg">
+
+    </li>
+    <br/><br/>
+    <li> And then Call the effect link shown in the example . see more effects at <a href="http://mynameismatthieu.com/WOW/index.html">WowJS Effects</a>
+
+                 <pre class="prettyprint lang-css linenums">
+
+                    &lt; -- you can find the code at index.html -- &gt;
+
+                <img src="assets/images/wowjs.jpg">
+
+    </li>
+     <li> You can also set the duration time of the animation
+
+                 <pre class="prettyprint lang-css linenums">
+
+                    &lt; -- you can find the code at index.html -- &gt;
+
+                <img src="assets/images/wowjs1.jpg">
+
+    </li>
+   
+ </ul>
+ </ul>
+
+</section>
+
+<section id="css_files_and_structure">
+    <h3>CSS</h3><hr class="notop">
+    <br><br>
+    <p>Note:<br><br>
+Be sure all the Modules works, please make sure the things:</p>
+<ul> 
+    <li>link the following css in the header tag
+        <pre class="prettyprint lang-css linenums">
+            &lt; -- bootstrap Framework -- See Documentation (http://getbootstrap.com/) --  &gt;
+            &lt;link rel="stylesheet" href="css/bootstrap.css" type="text/css"&gt;
+            &lt; -- Custom StyleSheet -- &gt;
+            &lt;link rel="stylesheet" href="css/style.css" type="text/css"&gt;
+            &lt; -- Animate CSS For Animations -- See Documentation (https://daneden.github.io/animate.css/) --  &gt;
+            &lt;link rel="stylesheet" href="css/animate.css" type="text/css"&gt;
+            &lt; -- Font Awesome Framework -- See Documentation (https://fortawesome.github.io/Font-Awesome/) --  &gt;
+            &lt;link rel="stylesheet" href="css/font-awesome.css" type="text/css"&gt;
+        </pre>
+                    </li>
+                </ul>
+                <ol>
+                    <li>bootstrap.css - Bootstrap Contains all the default css you can See Documentation (<a href="http://getbootstrap.com/">Bootstrap</a>) </li>
+                    <br>
+                    <li>custom.css - custom css contains all the customized css and styling if you get stuck feel free to <a href="http://themeforest.net/user/crown_technologies">(contact)</a> we are here to help</li>
+                    <br>
+                    <li>animate.css - animate css is for animations you can See Documentation (<a href="https://daneden.github.io/animate.css/">Animate CSS</a>)</li>
+                    <br>
+                    <li>Font-awesome.css - contains all the defualt css See Documentation (<a href="https://fortawesome.github.io/Font-Awesome/">Font Awesome</a>)</li>
+                    <br>
+                </ol>
+        </section>
+        <section id="javascript">
+            <h3>Javascript</h3>
+            <hr class="notop">
+            <br>
+            <br>
+            <p>Note:
+                <br>
+                <br> Be sure all the Modules works, please make sure the things:</p>
+            <ul>
+                <li>link the all JS files
+                    <pre class="prettyprint lang-css linenums">
+        &lt; -- Jquery Framework -- See Documentation (https://api.jquery.com/)--  &gt;
+        &lt;script type="text/javascript" src="js/jquery.js"&gt;&lt;/script&gt;
+
+        &lt; -- bootstrap Framework -- See Documentation (http://getbootstrap.com/) --  &gt;
+        &lt;script type="text/javascript" src="js/bootstrap.js"&gt;&lt;/script&gt;
+
+        &lt; -- Mix It Up Plugin -- See Documentation (https://mixitup.kunkalabs.com/) --  &gt;
+        &lt;script type="text/javascript" src="js/jquery.mixitup.js"&gt;&lt;/script&gt;
+
+        &lt; -- Text Rotator Plugin -- See Documentation (http://morphext.fyianlai.com/) --  &gt;
+        &lt;script type="text/javascript" src="js/morphext.js"&gt;&lt;/script&gt;
+
+        &lt; -- BackStretch Carousel Plugin -- See Documentation (http://srobbin.com/jquery-plugins/backstretch/) --  &gt;
+        &lt;script type="text/javascript" src="js/backstretch.min.js"&gt;&lt;/script&gt;
+
+        &lt; -- Google Maps -- See Documentation (https://cdnjs.com/) --  &gt;
+        &lt;script type="text/javascript" src="http://maps.google.com/maps/api/js"&gt;&lt;/script&gt;
+
+        &lt; -- Wow Animations Plugin -- See Documentation (http://mynameismatthieu.com/WOW/) --  &gt;
+        &lt;script type="text/javascript" src="js/wow.min.js"&gt;&lt;/script&gt;
+
+        &lt; -- Custom Javascript -- See Documentation (custom jquery/javascript styles for the theme) --  &gt;
+        &lt;script type="text/javascript" src="js/custom.js"&gt;&lt;/script&gt;
+        
+    </pre>
+                </li>
+                <li>insert the script before <span class="pre">&lt;/body&gt;</span>
+                </li>
+            </ul>
+            <ol>
+                <li>Jquery.js - Contains default javascript -- See Documentation (https://api.jquery.com/)</li>
+                <br>
+                <li>bootstrap.js - Contains Default Javascript -- See Documentation (http://getbootstrap.com/)</li>
+                <br>
+                <li>jquery.mixitup.js - Contains Default MixitUp PlugIn Styles -- See Documentation (https://mixitup.kunkalabs.com/)</li>
+                <br>
+                <li>morphext.js - Contains Default morphext PlugIn Styles -- See Documentation (http://morphext.fyianlai.com/)</li>
+                <br>
+                <li>wow.min.js - Contains Default wow PlugIn Styles -- See Documentation (http://mynameismatthieu.com/WOW/)</li>
+                <br>
+                <li>custom.js - Contains Default custom Styles </li>
+                <br>
+            </ol>
+        </section>
+
+        <section id="help_support">
+            <h3>HELP & SUPPORT</h3>
+            <hr class="notop">
+            <br>
+            <br>
+            <p>Thanks for purchasing our theme for further help <a href="http://themeforest.net/user/muse-master"> contact us </a>
+            </p>
+            <p> We are always available for the help please rate 5 STAR our item when you buy . </p>
+
+    </div>
+
+</body>
+
+</html>
